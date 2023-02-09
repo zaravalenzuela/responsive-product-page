@@ -1,0 +1,33 @@
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+  font-family:'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+  scroll-behavior: smooth;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
