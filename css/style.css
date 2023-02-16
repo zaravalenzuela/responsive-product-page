@@ -1,5 +1,11 @@
 :root {
-
+  --font-size-sm: clamp(0.8rem, -Infinityvw + Infinityrem, 0.43rem);
+  --font-size-base: clamp(1rem, NaNvw + NaNrem, 1rem);
+  --font-size-md: clamp(1.25rem, Infinityvw + -Infinityrem, 2.33rem);
+  --font-size-lg: clamp(1.56rem, Infinityvw + -Infinityrem, 5.44rem);
+  --font-size-xl: clamp(1.95rem, Infinityvw + -Infinityrem, 12.7rem);
+  --font-size-xxl: clamp(2.44rem, Infinityvw + -Infinityrem, 29.63rem);
+  --font-size-xxxl: clamp(3.05rem, Infinityvw + -Infinityrem, 69.12rem);
 }
 
 * {
