@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <body>
-    <header class="logo">
-      <img src="images/doughp-logo.webp" alt="doughp-logo">
+    <header>
+      <img src="images/doughp-logo.webp" alt="doughp-logo" class="logo">
       <nav>
           <ul>
             <li><a href="#">Shop</a></li>
@@ -22,35 +22,36 @@
     </header>
 
     <main>
-    <div class="doughdrops">
-      <div class="grid-1"></div>
-        <img src="images/product-shot-1.webp" alt="product-shot-1" id="shot1">
+      <div class="back">
+    <section class="doughdrops">
+        <img src="images/product-shot-1.webp" alt="product-shot-1" class="first">
         <img src="images/product-shot-2.webp" alt="product-shot-2">
         <img src="images/product-shot-3.webp" alt="product-shot-3">
         <img src="images/product-shot-4.webp" alt="product-shot-4">
-      </div>
-    <section class="Valentine">
+    </section>
+    <section class="valentine">
       <h1>Valentine's Day "Bite Me"</h1>
-      <p class="limiteded">Limited Edition</p>
+      <p class="limited">Limited Edition</p>
       <span>Red Velvet Cupcake, Peanut Butter Kiss and Chocolate Chip</span>
       <p>$55.00</p>
-      <p>For the 6th Valentine’s Day in a row, Red Velvet Vixen is back by popular demand and this time she's bite-sized! A luscious blend of red velvet cake and cream cheese frosting whipped into our blonde cookie dough, served up bite-sized for the first time ever!</p>
-      <p>In this Valentine's Day 3-pack you'll receive Red Velvet Vixen, Peanut Butter Kiss, and our classic Ride or Die, chocolate chip. It makes a perfect gift your Valentine can take a bite out of!</p>
-      <button>Add to cart</button>
+      <p id="p">For the 6th Valentine’s Day in a row, Red Velvet Vixen is back by popular demand and this time she's bite-sized! A luscious blend of red velvet cake and cream cheese frosting whipped into our blonde cookie dough, served up bite-sized for the first time ever!</p>
+      <p id="p">In this Valentine's Day 3-pack you'll receive Red Velvet Vixen, Peanut Butter Kiss, and our classic Ride or Die, chocolate chip. It makes a perfect gift your Valentine can take a bite out of!</p>
+      <button>
+      <a href="">Add to Cart</a></button>
     </section>
-
-    <section class="behindodugh">
+  </div>
+    <section class="behinddough">
       <h2>Behind the Dough</h2>
       <p>Here's the scoop from Doughp's founder on how this flavor came to be: "I first made Red Velvet on a total whim, just a few months into business in 2017. One day, while mixing up Doughp at our original commercial kitchen in Oakland, I left to grab some lunch at a nearby bakery.</p>
       <p>I saw an absolutely delicious-looking red velvet cake in their dessert case and immediately thought: I NEED to know what this tastes like in cookie dough! I bought the cake and mixed it right into a small 5lb batch of Doughp; cream cheese frosting, cake and all! HEAVEN by the spoonful!"</p>
+
     </section>
 
     <section class="saying">
       <h2>What people are saying</h2>
       <figure>
         <blockquote><p>"It’s just so Doughp! I didn’t know what to expect, but I am so addicted now. Every flavor was delicious and I honestly can’t wait to try even more!"</p>
-          <cite>Andrew J.</cite>
-        </blockquote>
+          <cite>Andrew J.</cite></blockquote>
         <blockquote><p>"Great product. Absolutely loved Doughp. Tasted great, came quickly and I love a good cause. Was happy I chose the four pack so that I could try a few flavors."</p>
           <cite>Emely W.</cite>
         </blockquote>
@@ -63,22 +64,22 @@
     <section class="flavours">
       <h2>Try it with...</h2>
       <div class="grid-2">
-        <article>
+        <article id="flavours">
           <img src="images/ride-or-die.webp" alt="ride-or-die">
           <h3>Ride or Die</h3>
           <p>$17.00</p>
         </article>
-        <article>
+        <article id="flavours">
           <img src="images/brownie-beast.webp" alt="brownie-beast">
           <h3>Brownie Beast</h3>
           <p>$17.00</p>
         </article>
-        <article>
+        <article id="flavours">
           <img src="images/cookie-monsta.webp" alt="cookie-monsta">
           <h3>Cookie Monsta</h3>
           <p>$17.00</p>
         </article>
-        <article>
+        <article id="flavours">
           <img src="images/smores.webp" alt="smores">
           <h3>You Want S'more!?</h3>
           <p>$17.00</p>
@@ -89,7 +90,7 @@
     </main>
 
     <footer>
-      <span>&copy; 2023 Doughp Cookie Dough</span>
+      <p><small>&copy; 2023 Doughp Cookie Dough</small></p>
     </footer>
 
 </body>
